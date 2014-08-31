@@ -1,12 +1,12 @@
 <?php
 $CONFIG = array();
-$CONFIG['address_ver'] = "21"; // 00 for bitcoin, 7D for StableCoin, 21 for FedoraCoin
+$CONFIG['address_ver'] = "21"; // 00 for bitcoin, 7D for StableCoin, 21 for FedoraCoin, 3D for Reddcoin
 
-$CONFIG['rpc_method'] = "http";
-$CONFIG['rpc_user'] = "user";
-$CONFIG['rpc_pass'] = "pass";
-$CONFIG['rpc_host'] = "127.0.0.1";
-$CONFIG['rpc_port'] = 22888;
+$CONFIG['rpc_method'] = "http";  // Method of RPC to connect to wallet deamon
+$CONFIG['rpc_user'] = "user"; // RPC username to connect to wallet deamon
+$CONFIG['rpc_pass'] = "pass"; // RPC password to connect to wallet deamon
+$CONFIG['rpc_host'] = "127.0.0.1"; // RPC to hostname/ip to connect to wallet deamon
+$CONFIG['rpc_port'] = 22888; // RPC to port to connect to wallet deamon
 
 $CONFIG['mysql_db'] = "database";
 $CONFIG['mysql_user'] = "username";
